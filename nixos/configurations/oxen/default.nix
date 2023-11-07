@@ -21,6 +21,10 @@ in {
     [[ "$(tty)" == /dev/tty1 ]] && sway
   '';
 
+  # Logrotate Bug Workaround
+  services.logrotate.enable = false;
+  services.logrotate.checkConfig = false;
+
   # System State Version
   system.stateVersion = mkDefault "23.05";
 
