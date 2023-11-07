@@ -12,3 +12,7 @@ An experimental flake.
     │   └── oxen
     └── modules
 ```
+Installation:
+```
+sudo nixos-rebuild switch --flake github:alexvasilkovski/oxen#oxen
+```
