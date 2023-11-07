@@ -16,6 +16,11 @@ in {
     extraGroups = ["networkmanager" "wheel" "video"];
   };
 
+  # No DM
+  environment.loginShellInit = ''
+    [[ "$(tty)" == /dev/tty1 ]] && sway
+  '';
+
   # System State Version
   system.stateVersion = mkDefault "23.05";
 
