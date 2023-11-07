@@ -8,7 +8,7 @@ in {
   ];
 
   # Hostname
-  networking.hostName = "jade";
+  networking.hostName = "oxen";
 
   # User
   users.users.cam = {
