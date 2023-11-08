@@ -16,6 +16,15 @@
     ];
   };
 
+  # Fonts
+  fonts.packages = with pkgs; [
+    (nerdfonts.override {
+      fonts = [
+        "FiraMono"
+      ];
+    })
+  ];
+
   # XDG Bug Fix
   xdg.portal = {
     enable = false;
