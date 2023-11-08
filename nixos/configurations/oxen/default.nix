@@ -14,7 +14,7 @@ in {
   users.users.cam = {
     isNormalUser = true;
     extraGroups = ["networkmanager" "wheel" "video"];
-    hashedPassword = "$6$NTBMA8MeaXZfNTys$h49l.Rg.Rg8vWmMH5akypIxxrinzi5CI06BuaYOmnPUGw8aezo0vIFGozY4rPfdpHUMNtyGoyqxgjAElOvDQQ/";
+    hashedPassword = "$6$eaEntkZ64ZkbRAHl$9T1.reJNPf9DzqdQmFq0yCQ1n/pmnL5x7d7iDBfxuWqiE4u8amVlQ6uGgvaa9Yno6lb.CNwbOjcEP22krl2TF1";
   };
 
   # No DM
