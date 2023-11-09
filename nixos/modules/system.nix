@@ -38,6 +38,6 @@
   systemd.network.wait-online.enable = false;
   networking.firewall = {
     enable = true;
-    allowedTCPPorts = [22 80 443]; # SSH, HTTP, HTTPS
+    allowedTCPPorts = [80 443]; # SSH, HTTP, HTTPS
   };
 }
